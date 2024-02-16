@@ -1,5 +1,36 @@
-'use strict';
+"use strict";
 
+// PRELOADER
+document.addEventListener("DOMContentLoaded", function () {
+  gsap.fromTo(
+    ".preloader",
+    { opacity: 1 },
+    {
+      opacity: 0,
+      duration: 4.5, // Adjust the duration to your preference
+      onComplete: function () {
+        // Remove the preloader and allow scrolling once it's hidden
+        document.body.classList.remove("loading");
+        // Optionally, you can remove the preloader element from the DOM
+        document.querySelector(".preloader").style.display = "none";
+      },
+    }
+  );
+
+  gsap.fromTo(
+    ".preloader-logo-name",
+    {
+      y: 50,
+      opacity: 0,
+    },
+    {
+      y: 0,
+      opacity: 1,
+      duration: 3, 
+      delay: 0.5,
+    }
+  );
+});
 
 
 /**
@@ -30,10 +61,6 @@ for (let i = 0; i < navbarLinks.length; i++) {
   });
 }
 
-
-
-
-
 /**
  * header active when window scrolled down
  */
@@ -41,6 +68,7 @@ for (let i = 0; i < navbarLinks.length; i++) {
 const header = document.querySelector("[data-header]");
 
 window.addEventListener("scroll", function () {
-  window.scrollY >= 50 ? header.classList.add("active")
+  window.scrollY >= 50
+    ? header.classList.add("active")
     : header.classList.remove("active");
 });
