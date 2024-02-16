@@ -26,8 +26,6 @@ Linux and macOS:
 
 ```bash
 sudo git clone https://github.com/usmantheguy/fowyd.git
-
-
 ```
 
 Windows:
