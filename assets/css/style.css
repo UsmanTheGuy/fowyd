@@ -13,7 +13,6 @@
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
-
 :root {
 
   /**
@@ -170,7 +169,6 @@ body.loading
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
-
 .container { padding-inline: 15px; }
 
 .section-subtitle {
@@ -319,7 +317,6 @@ body.loading
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
-
 .lang-switch,
 .header-action { display: none; }
 
@@ -440,12 +437,9 @@ body.loading
 
 
 
-
-
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
-
 .hero {
   background-color: var(--eerie-black-1);
   color: var(--white);
@@ -482,7 +476,6 @@ body.loading
 /*-----------------------------------*\
   #FEATURES
 \*-----------------------------------*/
-
 .features {
   padding-block-start: 0;
   background-color: var(--eerie-black-1);
@@ -517,12 +510,9 @@ body.loading
 
 
 
-
-
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
-
 .about { padding-block-start: 120px; }
 
 .about-banner {
@@ -608,7 +598,6 @@ body.loading
 /*-----------------------------------*\
   #CTA
 \*-----------------------------------*/
-
 .cta-content {
   background-color: var(--primary-color);
   text-align: center;
@@ -635,7 +624,6 @@ body.loading
 /*-----------------------------------*\
   #SERVICE
 \*-----------------------------------*/
-
 .service {
   background-color: var(--baby-powder);
   background-repeat: no-repeat;
@@ -694,12 +682,9 @@ body.loading
 
 
 
-
-
 /*-----------------------------------*\
   #DONATE
 \*-----------------------------------*/
-
 .donate-list {
   display: grid;
   gap: 60px;
@@ -781,12 +766,9 @@ body.loading
 
 
 
-
-
 /*-----------------------------------*\
   #TESTIMONIALS
 \*-----------------------------------*/
-
 .testi { background-color: var(--jet); }
 
 .testi-content { padding: var(--section-padding) 15px; }
@@ -824,7 +806,6 @@ body.loading
 /*-----------------------------------*\
   #PARTNER
 \*-----------------------------------*/
-
 .partner { background-color: var(--baby-powder); }
 
 .partner .container {
@@ -842,13 +823,9 @@ body.loading
 .partner-logo .gray { display: block; }
 
 
-
-
-
 /*-----------------------------------*\
   #EVENT
 \*-----------------------------------*/
-
 .event { padding-block-end: 120px; }
 
 .event .section-subtitle { justify-content: center; }
@@ -911,12 +888,9 @@ body.loading
 
 
 
-
-
 /*-----------------------------------*\
   #INSTA POST
 \*-----------------------------------*/
-
 .insta-post-link {
   position: relative;
   background-color: var(--eerie-black-1);
@@ -963,7 +937,6 @@ body.loading
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
-
 .footer {
   background-color: var(--raisin-black);
   color: var(--white);
@@ -1014,7 +987,6 @@ body.loading
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
-
 /**
  * responsive for larger than 450px screen
  */
@@ -1044,8 +1016,6 @@ body.loading
   .cta { --fs-4: 4.1rem; }
 
 }
-
-
 
 
 
@@ -1123,8 +1093,6 @@ body.loading
 
 
 
-
-
 /**
  * responsive for larger than 768px screen
  */
@@ -1163,7 +1131,6 @@ body.loading
   /**
    * TESTIMONIALS
    */
-
   .testi-card {
     display: flex;
     align-items: flex-start;
@@ -1177,7 +1144,6 @@ body.loading
   /**
    * INSTA POST
    */
-
   .insta-post-item { min-width: 32%; }
 
 
@@ -1185,7 +1151,6 @@ body.loading
   /**
    * FOOTER
    */
-
   .footer .container {
     display: flex;
     align-items: center;
