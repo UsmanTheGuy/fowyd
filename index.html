@@ -9,7 +9,7 @@
     <!-- 
     - favicon
   -->
-    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="shortcut icon" href="./favicon.jpg" type="image/jpg" />
 
     <!-- 
     - custom css link
@@ -55,7 +55,14 @@
     <header class="header" data-header>
       <div class="container">
         <h1>
-          <a href="#" class="logo">FOWYD</a>
+          <a href="./index.html" class="logo">
+            <img
+              src="./assets/images/fowyd_logo.png"
+              alt="FOWYD Logo"
+              width="150"
+              height="100"
+            />
+          </a>
         </h1>
 
         <select name="language" class="lang-switch">
@@ -77,7 +84,14 @@
             <ion-icon name="close-outline"></ion-icon>
           </button>
 
-          <a href="#" class="logo">FOWYD</a>
+          <a href="./index.html" class="logo">
+            <img
+              src="./assets/images/fowyd_logo.png"
+              alt="FOWYD Logo"
+              width="150"
+              height="100"
+            />
+          </a>
 
           <ul class="navbar-list">
             <li>
@@ -114,8 +128,8 @@
             </li>
 
             <li>
-              <a href="#donate" class="navbar-link" data-nav-link>
-                <span>Donate</span>
+              <a href="#event" class="navbar-link" data-nav-link>
+                <span>Events</span>
 
                 <ion-icon
                   name="chevron-forward-outline"
@@ -126,7 +140,29 @@
 
             <li>
               <a href="#event" class="navbar-link" data-nav-link>
-                <span>Event</span>
+                <span>Blog</span>
+
+                <ion-icon
+                  name="chevron-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#event" class="navbar-link" data-nav-link>
+                <span> Applications </span>
+
+                <ion-icon
+                  name="chevron-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#donate" class="navbar-link" data-nav-link>
+                <span>Donate</span>
 
                 <ion-icon
                   name="chevron-forward-outline"
@@ -149,10 +185,6 @@
         </nav>
 
         <div class="header-action">
-          <button class="search-btn" aria-label="Search">
-            <ion-icon name="search-outline"></ion-icon>
-          </button>
-
           <button class="btn btn-primary">
             <span>Donation</span>
 
@@ -167,7 +199,6 @@
         <!-- 
         - #HERO
       -->
-
         <section class="hero" id="home">
           <div class="container">
             <p class="section-subtitle">
@@ -178,25 +209,30 @@
                 alt="Wavy line"
               />
 
-              <span>Welcome to FOWYD </span>
+              <span>
+                Welcome to FOWYD - Forum for Women and Youth for
+                Development</span
+              >
             </p>
 
             <h2 class="h1 hero-title">
-              Give Love for Saving <strong> World Animals </strong>
+              Empowering <strong> Women </strong> and <strong>Youth </strong>
             </h2>
 
             <p class="hero-text">
+              Join us in making a positive impact on the world. At FOWYD, we are
+              dedicated to empowering women and youth, working together for the
+              development of our communities and the well-being of animals.
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
               ex itaque! Pariatur consectetur rem vitae ratione dolor ab eum
               aliquid, nulla itaque expedita, distinctio atque, tenetur
               veritatis quod quam provident.
             </p>
 
-            <button class="btn btn-primary">
-              <span>Donation</span>
-
+            <a href="./donate.html" class="btn btn-primary header-button">
+              <span>Get Involved</span>
               <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
-            </button>
+            </a>
           </div>
         </section>
 
@@ -209,56 +245,60 @@
             <ul class="features-list">
               <li class="features-item">
                 <div class="item-icon">
-                  <ion-icon name="shield-checkmark-outline"></ion-icon>
+                  <ion-icon name="people-outline"></ion-icon>
                 </div>
 
                 <div>
-                  <h3 class="h4 item-title">Safe Shelter</h3>
+                  <h3 class="h4 item-title">Empowering Women</h3>
 
                   <p class="item-text">
-                    Sit amet consecte adiscine eiusm temor ultrices.
+                    Empowerment initiatives to support and uplift women in their
+                    personal and professional journeys.
                   </p>
                 </div>
               </li>
 
               <li class="features-item">
                 <div class="item-icon">
-                  <ion-icon name="water-outline"></ion-icon>
+                  <ion-icon name="rocket-outline"></ion-icon>
                 </div>
 
                 <div>
-                  <h3 class="h4 item-title">Safe Water</h3>
+                  <h3 class="h4 item-title">Youth Development</h3>
 
                   <p class="item-text">
-                    Sit amet consecte adiscine eiusm temor ultrices.
+                    Educational programs and resources to foster the holistic
+                    development of the youth.
                   </p>
                 </div>
               </li>
 
               <li class="features-item">
                 <div class="item-icon">
-                  <ion-icon name="leaf-outline"></ion-icon>
+                  <ion-icon name="heart-outline"></ion-icon>
                 </div>
 
                 <div>
-                  <h3 class="h4 item-title">Ecology Save</h3>
+                  <h3 class="h4 item-title">Community Engagement</h3>
 
                   <p class="item-text">
-                    Sit amet consecte adiscine eiusm temor ultrices.
+                    Engaging the community for positive societal impact through
+                    various initiatives.
                   </p>
                 </div>
               </li>
 
               <li class="features-item">
                 <div class="item-icon">
-                  <ion-icon name="snow-outline"></ion-icon>
+                  <ion-icon name="globe-outline"></ion-icon>
                 </div>
 
                 <div>
-                  <h3 class="h4 item-title">Environment</h3>
+                  <h3 class="h4 item-title">Global Outreach</h3>
 
                   <p class="item-text">
-                    Sit amet consecte adiscine eiusm temor ultrices.
+                    Extending our mission globally to create a better world for
+                    women and youth everywhere.
                   </p>
                 </div>
               </li>
@@ -269,12 +309,10 @@
         <!-- 
         - #ABOUT
       -->
-
         <section class="section about" id="about">
           <div class="container">
             <div class="about-banner">
-              <h2 class="deco-title">About Us</h2>
-
+              <h2 class="deco-title">About FOWYD</h2>
               <img
                 src="./assets/images/deco-img.png"
                 width="58"
@@ -290,16 +328,15 @@
                     width="315"
                     height="380"
                     loading="lazy"
-                    alt="Tiger"
+                    alt="Empowered Women"
                     class="about-img w-100"
                   />
-
                   <img
                     src="./assets/images/about-banner-2.jpg"
                     width="386"
                     height="250"
                     loading="lazy"
-                    alt="Panda"
+                    alt="Youth Development"
                     class="about-img about-img-2 w-100"
                   />
                 </div>
@@ -310,16 +347,15 @@
                     width="250"
                     height="277"
                     loading="lazy"
-                    alt="Elephant"
+                    alt="Community Engagement"
                     class="about-img about-img-3 w-100"
                   />
-
                   <img
                     src="./assets/images/about-banner-4.jpg"
                     width="315"
                     height="380"
                     loading="lazy"
-                    alt="Deer"
+                    alt="Global Outreach"
                     class="about-img w-100"
                   />
                 </div>
@@ -329,96 +365,109 @@
             <div class="about-content">
               <p class="section-subtitle">
                 <img
-                  src="./assets/images/subtitle-img-green.png"
+                  src="./assets/images/subtitle-img-white.png"
                   width="32"
                   height="7"
                   alt="Wavy line"
                 />
-
-                <span>Why Choose Us</span>
+                <span>Why Choose FOWYD</span>
               </p>
 
               <h2 class="h2 section-title">
-                Rise Your Hand to Save <strong>World Animals Life</strong>
+                Join Us in Empowering Women and Nurturing Youth Potential
               </h2>
 
               <ul class="tab-nav">
                 <li>
-                  <button class="tab-btn active">Our Mission</button>
+                  <button
+                    class="tab-btn active"
+                    onclick="changeContent('missionContent')"
+                  >
+                    Our Mission
+                  </button>
                 </li>
 
                 <li>
-                  <button class="tab-btn">Our Vision</button>
+                  <button
+                    class="tab-btn"
+                    onclick="changeContent('visionContent')"
+                  >
+                    Our Vision
+                  </button>
                 </li>
 
                 <li>
-                  <button class="tab-btn">Next Plan</button>
+                  <button
+                    class="tab-btn"
+                    onclick="changeContent('futureContent')"
+                  >
+                    Future Plans
+                  </button>
                 </li>
               </ul>
 
               <div class="tab-content">
-                <p class="section-text">
-                  But I must explain to you how all this mistaken denouncing
-                  pleasure and praising pain was born and I will give you a
-                  complete account of the system expoundmaster
-                </p>
+                <div id="missionContent">
+                  <p class="section-text">
+                    At FOWYD, our mission is to empower women and nurture the
+                    potential of the youth. We envision a world where every
+                    woman and young individual is given the opportunity to
+                    thrive and contribute positively to society.
+                  </p>
 
-                <ul class="tab-list">
-                  <li class="tab-item">
-                    <div class="item-icon">
-                      <ion-icon name="checkmark-circle"></ion-icon>
-                    </div>
+                  <ul class="tab-list">
+                    <li class="tab-item">
+                      <div class="item-icon">
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                      </div>
+                      <p class="tab-text">Empowering Women</p>
+                    </li>
 
-                    <p class="tab-text">Charity For Foods</p>
-                  </li>
+                    <li class="tab-item">
+                      <div class="item-icon">
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                      </div>
+                      <p class="tab-text">Nurturing Youth Potential</p>
+                    </li>
 
-                  <li class="tab-item">
-                    <div class="item-icon">
-                      <ion-icon name="checkmark-circle"></ion-icon>
-                    </div>
+                    <li class="tab-item">
+                      <div class="item-icon">
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                      </div>
+                      <p class="tab-text">Community Engagement</p>
+                    </li>
 
-                    <p class="tab-text">Charity For Education</p>
-                  </li>
+                    <li class="tab-item">
+                      <div class="item-icon">
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                      </div>
+                      <p class="tab-text">Global Outreach</p>
+                    </li>
+                  </ul>
 
-                  <li class="tab-item">
-                    <div class="item-icon">
-                      <ion-icon name="checkmark-circle"></ion-icon>
-                    </div>
-
-                    <p class="tab-text">Charity For Water</p>
-                  </li>
-
-                  <li class="tab-item">
-                    <div class="item-icon">
-                      <ion-icon name="checkmark-circle"></ion-icon>
-                    </div>
-
-                    <p class="tab-text">Charity For Medical</p>
-                  </li>
-                </ul>
-
-                <button class="btn btn-secondary">
-                  <span>Learn More Us</span>
-
-                  <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
-                </button>
+                  <button class="btn btn-secondary">
+                    <span>Learn More About Our Mission</span>
+                    <ion-icon
+                      name="heart-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-        <!-- 
-        - #CTA
-      -->
+        <!-- #CTA -->
 
         <section class="section cta">
           <div class="container">
             <div class="cta-content">
-              <h2 class="h2 section-title">324+ Trusted Global Partners</h2>
-
+              <h2 class="h2 section-title">
+                Join Our Network of 324+ Trusted Global Partners
+              </h2>
               <button class="btn btn-outline">
                 <span>Become a Partner</span>
-
                 <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
               </button>
             </div>
@@ -429,7 +478,7 @@
                 width="520"
                 height="228"
                 loading="lazy"
-                alt="Fox"
+                alt="FOWYD Community"
                 class="img-cover"
               />
             </figure>
@@ -439,7 +488,6 @@
         <!-- 
         - #SERVICE
       -->
-
         <section
           class="section service"
           id="service"
@@ -448,35 +496,35 @@
           <div class="container">
             <p class="section-subtitle">
               <img
-                src="./assets/images/subtitle-img-green.png"
+                src="./assets/images/subtitle-img-white.png"
                 width="32"
                 height="7"
                 alt="Wavy line"
               />
-
-              <span>What We Do</span>
+              <span>Empowering Lives at FOWYD</span>
             </p>
 
             <h2 class="h2 section-title">
-              We Work Differently to <strong>keep The World Safe</strong>
+              We Work Differently to
+              <strong>Empower Women and Uplift Youth</strong>
             </h2>
 
             <ul class="service-list">
               <li>
                 <div class="service-card">
                   <div class="card-icon">
-                    <ion-icon name="leaf-outline"></ion-icon>
+                    <ion-icon name="people-outline"></ion-icon>
                   </div>
 
-                  <h3 class="h3 card-title">Save Nature</h3>
+                  <h3 class="h3 card-title">Empowerment Programs</h3>
 
                   <p class="card-text">
-                    Tempor incididunt ut labores dolore magna suspene
+                    Offering comprehensive empowerment programs to uplift and
+                    support women in their personal and professional journeys.
                   </p>
 
                   <a href="#" class="btn-link">
-                    <span>Read More</span>
-
+                    <span>Learn More</span>
                     <ion-icon
                       name="arrow-forward"
                       aria-hidden="true"
@@ -488,18 +536,43 @@
               <li>
                 <div class="service-card">
                   <div class="card-icon">
-                    <ion-icon name="earth-outline"></ion-icon>
+                    <ion-icon name="school-outline"></ion-icon>
                   </div>
 
-                  <h3 class="h3 card-title">Save Ecology</h3>
+                  <h3 class="h3 card-title">Youth Development Initiatives</h3>
 
                   <p class="card-text">
-                    Tempor incididunt ut labores dolore magna suspene
+                    Nurturing the potential of the youth through education,
+                    mentorship, and skill-building programs, ensuring a brighter
+                    future for the upcoming generation.
                   </p>
 
                   <a href="#" class="btn-link">
-                    <span>Read More</span>
+                    <span>Learn More</span>
+                    <ion-icon
+                      name="arrow-forward"
+                      aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </li>
 
+              <!-- Additional Cards -->
+              <li>
+                <div class="service-card">
+                  <div class="card-icon">
+                    <ion-icon name="briefcase-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Entrepreneurship Support</h3>
+
+                  <p class="card-text">
+                    Fostering entrepreneurship among women and youth, providing
+                    resources and guidance to start and grow their businesses.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span>Learn More</span>
                     <ion-icon
                       name="arrow-forward"
                       aria-hidden="true"
@@ -511,41 +584,18 @@
               <li>
                 <div class="service-card">
                   <div class="card-icon">
-                    <ion-icon name="flower-outline"></ion-icon>
+                    <ion-icon name="heart-circle-outline"></ion-icon>
                   </div>
 
-                  <h3 class="h3 card-title">Tree Plantation</h3>
+                  <h3 class="h3 card-title">Community Well-being</h3>
 
                   <p class="card-text">
-                    Tempor incididunt ut labores dolore magna suspene
+                    Promoting community well-being through health initiatives,
+                    ensuring a healthy and thriving environment for all.
                   </p>
 
                   <a href="#" class="btn-link">
-                    <span>Read More</span>
-
-                    <ion-icon
-                      name="arrow-forward"
-                      aria-hidden="true"
-                    ></ion-icon>
-                  </a>
-                </div>
-              </li>
-
-              <li>
-                <div class="service-card">
-                  <div class="card-icon">
-                    <ion-icon name="boat-outline"></ion-icon>
-                  </div>
-
-                  <h3 class="h3 card-title">Clear Ocean</h3>
-
-                  <p class="card-text">
-                    Tempor incididunt ut labores dolore magna suspene
-                  </p>
-
-                  <a href="#" class="btn-link">
-                    <span>Read More</span>
-
+                    <span>Learn More</span>
                     <ion-icon
                       name="arrow-forward"
                       aria-hidden="true"
@@ -560,276 +610,245 @@
         <!-- 
         - #DONATE
       -->
-
-        <section class="section donate" id="donate">
-          <div class="container">
-            <ul class="donate-list">
-              <li>
-                <div class="donate-card">
-                  <figure class="card-banner">
-                    <img
-                      src="./assets/images/donate-1.jpg"
-                      width="520"
-                      height="325"
-                      loading="lazy"
-                      alt="Elephant"
-                      class="img-cover"
-                    />
-                  </figure>
-
-                  <div class="card-content">
-                    <div class="progress-wrapper">
-                      <p class="progress-text">
-                        <span>Raised</span>
-
-                        <data value="256">$256</data>
-                      </p>
-
-                      <data class="progress-value" value="83">83%</data>
-                    </div>
-
-                    <div class="progress-box">
-                      <div class="progress"></div>
-                    </div>
-
-                    <h3 class="h3 card-title">Raise Hand To Save Animals</h3>
-
-                    <div class="card-wrapper">
-                      <p class="card-wrapper-text">
-                        <span>Goal</span>
-
-                        <data class="green" value="34562">$34562</data>
-                      </p>
-
-                      <p class="card-wrapper-text">
-                        <span>Raise</span>
-
-                        <data class="yellow" value="562">$562</data>
-                      </p>
-
-                      <p class="card-wrapper-text">
-                        <span>To Go</span>
-
-                        <data class="cyan" value="864">$864</data>
-                      </p>
-                    </div>
-
-                    <button class="btn btn-secondary">
-                      <span>Donation</span>
-
-                      <ion-icon
-                        name="heart-outline"
-                        aria-hidden="true"
-                      ></ion-icon>
-                    </button>
+      <section class="section donate" id="donate">
+        <div class="container">
+          <ul class="donate-list">
+            <li>
+              <div class="donate-card">
+                <figure class="card-banner">
+                  <img
+                    src="./assets/images/donate-women.jpg"
+                    width="520"
+                    height="325"
+                    loading="lazy"
+                    alt="Empowering Women"
+                    class="img-cover"
+                  />
+                </figure>
+      
+                <div class="card-content">
+                  <div class="progress-wrapper">
+                    <p class="progress-text">
+                      <span>Raised</span>
+                      <data value="4500">$4500</data>
+                    </p>
+      
+                    <data class="progress-value" value="65">65%</data>
                   </div>
-                </div>
-              </li>
-
-              <li>
-                <div class="donate-card">
-                  <figure class="card-banner">
-                    <img
-                      src="./assets/images/donate-2.jpg"
-                      width="520"
-                      height="325"
-                      loading="lazy"
-                      alt="Elephant"
-                      class="img-cover"
-                    />
-                  </figure>
-
-                  <div class="card-content">
-                    <div class="progress-wrapper">
-                      <p class="progress-text">
-                        <span>Raised</span>
-
-                        <data value="256">$256</data>
-                      </p>
-
-                      <data class="progress-value" value="83">83%</data>
-                    </div>
-
-                    <div class="progress-box">
-                      <div class="progress"></div>
-                    </div>
-
-                    <h3 class="h3 card-title">Raise Hand To Save Animals</h3>
-
-                    <div class="card-wrapper">
-                      <p class="card-wrapper-text">
-                        <span>Goal</span>
-
-                        <data class="green" value="34562">$34562</data>
-                      </p>
-
-                      <p class="card-wrapper-text">
-                        <span>Raise</span>
-
-                        <data class="yellow" value="562">$562</data>
-                      </p>
-
-                      <p class="card-wrapper-text">
-                        <span>To Go</span>
-
-                        <data class="cyan" value="864">$864</data>
-                      </p>
-                    </div>
-
-                    <button class="btn btn-secondary">
-                      <span>Donation</span>
-
-                      <ion-icon
-                        name="heart-outline"
-                        aria-hidden="true"
-                      ></ion-icon>
-                    </button>
+      
+                  <div class="progress-box">
+                    <div class="progress"></div>
                   </div>
-                </div>
-              </li>
-
-              <li>
-                <div class="donate-card">
-                  <figure class="card-banner">
-                    <img
-                      src="./assets/images/donate-3.jpg"
-                      width="520"
-                      height="325"
-                      loading="lazy"
-                      alt="Elephant"
-                      class="img-cover"
-                    />
-                  </figure>
-
-                  <div class="card-content">
-                    <div class="progress-wrapper">
-                      <p class="progress-text">
-                        <span>Raised</span>
-
-                        <data value="256">$256</data>
-                      </p>
-
-                      <data class="progress-value" value="83">83%</data>
-                    </div>
-
-                    <div class="progress-box">
-                      <div class="progress"></div>
-                    </div>
-
-                    <h3 class="h3 card-title">Raise Hand To Save Animals</h3>
-
-                    <div class="card-wrapper">
-                      <p class="card-wrapper-text">
-                        <span>Goal</span>
-
-                        <data class="green" value="34562">$34562</data>
-                      </p>
-
-                      <p class="card-wrapper-text">
-                        <span>Raise</span>
-
-                        <data class="yellow" value="562">$562</data>
-                      </p>
-
-                      <p class="card-wrapper-text">
-                        <span>To Go</span>
-
-                        <data class="cyan" value="864">$864</data>
-                      </p>
-                    </div>
-
-                    <button class="btn btn-secondary">
-                      <span>Donation</span>
-
-                      <ion-icon
-                        name="heart-outline"
-                        aria-hidden="true"
-                      ></ion-icon>
-                    </button>
+      
+                  <h3 class="h3 card-title">Empower Women for a Brighter Tomorrow</h3>
+      
+                  <div class="card-wrapper">
+                    <p class="card-wrapper-text">
+                      <span>Goal</span>
+                      <data class="green" value="6900">$6900</data>
+                    </p>
+      
+                    <p class="card-wrapper-text">
+                      <span>Raised</span>
+                      <data class="yellow" value="4500">$4500</data>
+                    </p>
+      
+                    <p class="card-wrapper-text">
+                      <span>To Go</span>
+                      <data class="cyan" value="2400">$2400</data>
+                    </p>
                   </div>
+      
+                  <button class="btn btn-secondary">
+                    <span>Support Empowerment</span>
+                    <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                  </button>
                 </div>
-              </li>
-
-              <li>
-                <div class="donate-card">
-                  <figure class="card-banner">
-                    <img
-                      src="./assets/images/donate-4.jpg"
-                      width="520"
-                      height="325"
-                      loading="lazy"
-                      alt="Elephant"
-                      class="img-cover"
-                    />
-                  </figure>
-
-                  <div class="card-content">
-                    <div class="progress-wrapper">
-                      <p class="progress-text">
-                        <span>Raised</span>
-
-                        <data value="256">$256</data>
-                      </p>
-
-                      <data class="progress-value" value="83">83%</data>
-                    </div>
-
-                    <div class="progress-box">
-                      <div class="progress"></div>
-                    </div>
-
-                    <h3 class="h3 card-title">Raise Hand To Save Animals</h3>
-
-                    <div class="card-wrapper">
-                      <p class="card-wrapper-text">
-                        <span>Goal</span>
-
-                        <data class="green" value="34562">$34562</data>
-                      </p>
-
-                      <p class="card-wrapper-text">
-                        <span>Raise</span>
-
-                        <data class="yellow" value="562">$562</data>
-                      </p>
-
-                      <p class="card-wrapper-text">
-                        <span>To Go</span>
-
-                        <data class="cyan" value="864">$864</data>
-                      </p>
-                    </div>
-
-                    <button class="btn btn-secondary">
-                      <span>Donation</span>
-
-                      <ion-icon
-                        name="heart-outline"
-                        aria-hidden="true"
-                      ></ion-icon>
-                    </button>
+              </div>
+            </li>
+      
+            <li>
+              <div class="donate-card">
+                <figure class="card-banner">
+                  <img
+                    src="./assets/images/donate-youth.jpg"
+                    width="520"
+                    height="325"
+                    loading="lazy"
+                    alt="Youth Development"
+                    class="img-cover"
+                  />
+                </figure>
+      
+                <div class="card-content">
+                  <div class="progress-wrapper">
+                    <p class="progress-text">
+                      <span>Raised</span>
+                      <data value="3200">$3200</data>
+                    </p>
+      
+                    <data class="progress-value" value="50">50%</data>
                   </div>
+      
+                  <div class "progress-box">
+                    <div class="progress"></div>
+                  </div>
+      
+                  <h3 class="h3 card-title">Nurture Youth Potential for a Better Future</h3>
+      
+                  <div class="card-wrapper">
+                    <p class="card-wrapper-text">
+                      <span>Goal</span>
+                      <data class="green" value="6400">$6400</data>
+                    </p>
+      
+                    <p class="card-wrapper-text">
+                      <span>Raised</span>
+                      <data class="yellow" value="3200">$3200</data>
+                    </p>
+      
+                    <p class="card-wrapper-text">
+                      <span>To Go</span>
+                      <data class="cyan" value="3200">$3200</data>
+                    </p>
+                  </div>
+      
+                  <button class="btn btn-secondary">
+                    <span>Support Youth Development</span>
+                    <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                  </button>
                 </div>
-              </li>
-            </ul>
-          </div>
-        </section>
+              </div>
+            </li>
+      
+            <!-- Card 3 -->
+<li>
+  <div class="donate-card">
+    <figure class="card-banner">
+      <img
+        src="./assets/images/donate-education.jpg"
+        width="520"
+        height="325"
+        loading="lazy"
+        alt="Education Support"
+        class="img-cover"
+      />
+    </figure>
+
+    <div class="card-content">
+      <div class="progress-wrapper">
+        <p class="progress-text">
+          <span>Raised</span>
+          <data value="2800">$2800</data>
+        </p>
+
+        <data class="progress-value" value="70">70%</data>
+      </div>
+
+      <div class="progress-box">
+        <div class="progress"></div>
+      </div>
+
+      <h3 class="h3 card-title">Support Education for a Knowledgeable Tomorrow</h3>
+
+      <div class="card-wrapper">
+        <p class="card-wrapper-text">
+          <span>Goal</span>
+          <data class="green" value="4000">$4000</data>
+        </p>
+
+        <p class="card-wrapper-text">
+          <span>Raised</span>
+          <data class="yellow" value="2800">$2800</data>
+        </p>
+
+        <p class="card-wrapper-text">
+          <span>To Go</span>
+          <data class="cyan" value="1200">$1200</data>
+        </p>
+      </div>
+
+      <button class="btn btn-secondary">
+        <span>Support Education</span>
+        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+      </button>
+    </div>
+  </div>
+</li>
+
+<!-- Card 4 -->
+<li>
+  <div class="donate-card">
+    <figure class="card-banner">
+      <img
+        src="./assets/images/donate-healthcare.jpg"
+        width="520"
+        height="325"
+        loading="lazy"
+        alt="Healthcare Initiatives"
+        class="img-cover"
+      />
+    </figure>
+
+    <div class="card-content">
+      <div class="progress-wrapper">
+        <p class="progress-text">
+          <span>Raised</span>
+          <data value="3500">$3500</data>
+        </p>
+
+        <data class="progress-value" value="65">65%</data>
+      </div>
+
+      <div class="progress-box">
+        <div class="progress"></div>
+      </div>
+
+      <h3 class="h3 card-title">Contribute to Healthcare Initiatives for a Healthy Community</h3>
+
+      <div class="card-wrapper">
+        <p class="card-wrapper-text">
+          <span>Goal</span>
+          <data class="green" value="5400">$5400</data>
+        </p>
+
+        <p class="card-wrapper-text">
+          <span>Raised</span>
+          <data class="yellow" value="3500">$3500</data>
+        </p>
+
+        <p class="card-wrapper-text">
+          <span>To Go</span>
+          <data class="cyan" value="1900">$1900</data>
+        </p>
+      </div>
+
+      <button class="btn btn-secondary">
+        <span>Support Healthcare</span>
+        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+      </button>
+    </div>
+  </div>
+</li>
+
+          </ul>
+        </div>
+      </section>
+      
 
         <!-- 
         - #TESTIMONIALS
       -->
-
         <section class="testi">
           <div class="testi-content">
             <p class="section-subtitle">
               <img
-                src="./assets/images/subtitle-img-green.png"
+                src="./assets/images/subtitle-img-white.png"
                 width="32"
                 height="7"
                 alt="Wavy line"
               />
-
-              <span>Our Testimonials</span>
+              <span>Impressions from John Doe</span>
             </p>
 
             <h2 class="h2 section-title">
@@ -843,21 +862,21 @@
                   width="60"
                   height="60"
                   loading="lazy"
-                  alt="David S. Neuman"
+                  alt="John Doe"
                 />
               </figure>
 
               <div>
                 <blockquote class="testi-text">
-                  Sed ut perspiciatis unde omnis iste natus error voluptatem
-                  accusantium doloremque laudantium totam rem aperiam eaquesa
-                  quae abillo inventore veritatis quasi architecto beatae vitae
-                  dicta sunt explicabo enimpsam voluptatem
+                  I am truly amazed by the impactful work done by this
+                  organization. Their dedication to empowering women and
+                  nurturing youth potential is inspiring and brings positive
+                  change to communities. I wholeheartedly support their mission.
                 </blockquote>
 
-                <h3 class="testi-name">David S. Neuman</h3>
+                <h3 class="testi-name">John Doe</h3>
 
-                <p class="testi-title">Business Manager</p>
+                <p class="testi-title">Community Advocate</p>
               </div>
             </div>
           </div>
@@ -877,7 +896,6 @@
         <!-- 
         - #PARTNER
       -->
-
         <section class="section partner">
           <div class="container">
             <a href="#" class="partner-logo">
@@ -985,7 +1003,6 @@
         <!-- 
         - #EVENT
       -->
-
         <section class="section event" id="event">
           <div class="container">
             <p class="section-subtitle">
@@ -995,9 +1012,7 @@
                 height="7"
                 alt="Wavy line"
               />
-
-              <span>Event & Program</span>
-
+              <span>Upcoming Events & Programs</span>
               <img
                 src="./assets/images/subtitle-img-green.png"
                 width="32"
@@ -1007,35 +1022,30 @@
             </p>
 
             <h2 class="h2 section-title">
-              Our Most Popular Causes For <strong>Building Fund</strong>
+              Join Us in Empowering Women and Nurturing Youth Potential Through
+              <strong>Our Initiatives</strong>
             </h2>
 
             <ul class="event-list">
               <li>
                 <div class="event-card">
-                  <time class="card-time" datetime="01-05">
-                    <span class="month">Jan</span>
-
-                    <span class="date">05</span>
+                  <time class="card-time" datetime="04-15">
+                    <span class="month">Apr</span>
+                    <span class="date">15</span>
                   </time>
 
                   <div class="wrapper">
                     <div class="card-content">
-                      <p class="card-subtitle">Ocean Water</p>
-
-                      <h3 class="card-title">
-                        Far from the countries Vokalia and Consonantia 2022
-                      </h3>
-
+                      <p class="card-subtitle">Youth Development</p>
+                      <h3 class="card-title">Empowerment Workshop</h3>
                       <p class="card-text">
-                        Sit amet consectetur adipiscing elit sed do eiusmod
-                        tempor
+                        Join us for an interactive workshop focused on nurturing
+                        the potential of the youth.
                       </p>
                     </div>
 
-                    <button class="btn btn-white">
-                      <span>View Events</span>
-
+                    <button class="btn btn-green">
+                      <span>View Details</span>
                       <ion-icon
                         name="arrow-forward"
                         aria-hidden="true"
@@ -1047,29 +1057,23 @@
 
               <li>
                 <div class="event-card">
-                  <time class="card-time" datetime="02-23">
-                    <span class="month">Feb</span>
-
-                    <span class="date">23</span>
+                  <time class="card-time" datetime="05-20">
+                    <span class="month">May</span>
+                    <span class="date">20</span>
                   </time>
 
                   <div class="wrapper">
                     <div class="card-content">
-                      <p class="card-subtitle">Ocean Water</p>
-
-                      <h3 class="card-title">
-                        Far from the countries Vokalia and Consonantia 2022
-                      </h3>
-
+                      <p class="card-subtitle">Women Empowerment</p>
+                      <h3 class="card-title">Leadership Summit</h3>
                       <p class="card-text">
-                        Sit amet consectetur adipiscing elit sed do eiusmod
-                        tempor
+                        A summit dedicated to empowering women leaders and
+                        fostering positive change in communities.
                       </p>
                     </div>
 
-                    <button class="btn btn-white">
-                      <span>View Events</span>
-
+                    <button class="btn btn-green">
+                      <span>View Details</span>
                       <ion-icon
                         name="arrow-forward"
                         aria-hidden="true"
@@ -1081,29 +1085,23 @@
 
               <li>
                 <div class="event-card">
-                  <time class="card-time" datetime="03-27">
-                    <span class="month">Mar</span>
-
-                    <span class="date">27</span>
+                  <time class="card-time" datetime="06-25">
+                    <span class="month">Jun</span>
+                    <span class="date">25</span>
                   </time>
 
                   <div class="wrapper">
                     <div class="card-content">
-                      <p class="card-subtitle">Ocean Water</p>
-
-                      <h3 class="card-title">
-                        Far from the countries Vokalia and Consonantia 2022
-                      </h3>
-
+                      <p class="card-subtitle">Community Engagement</p>
+                      <h3 class="card-title">Community Cleanup</h3>
                       <p class="card-text">
-                        Sit amet consectetur adipiscing elit sed do eiusmod
-                        tempor
+                        Join hands with us in a community cleanup event to make
+                        a positive impact on our environment.
                       </p>
                     </div>
 
-                    <button class="btn btn-white">
-                      <span>View Events</span>
-
+                    <button class="btn btn-green">
+                      <span>View Details</span>
                       <ion-icon
                         name="arrow-forward"
                         aria-hidden="true"
@@ -1115,8 +1113,7 @@
             </ul>
 
             <button class="btn btn-secondary">
-              <span>Learn More Us</span>
-
+              <span>Learn More About Our Events</span>
               <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
             </button>
           </div>
@@ -1224,8 +1221,8 @@
         </ul>
 
         <p class="copyright">
-          Copyright 2024 <a href="#" class="copyright-link">FOWYD</a>.
-          All Rights Reserved.
+          Copyright 2024 <a href="#" class="copyright-link">FOWYD</a>. All
+          Rights Reserved.
         </p>
       </div>
     </footer>

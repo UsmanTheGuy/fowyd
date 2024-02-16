@@ -7,12 +7,16 @@ document.addEventListener("DOMContentLoaded", function () {
     { opacity: 1 },
     {
       opacity: 0,
-      duration: 4.5, // Adjust the duration to your preference
+      duration: 1.5,
+      ease: "power2.inOut",
       onComplete: function () {
         // Remove the preloader and allow scrolling once it's hidden
         document.body.classList.remove("loading");
         // Optionally, you can remove the preloader element from the DOM
         document.querySelector(".preloader").style.display = "none";
+
+        // Now that the preloader is hidden, open the page content
+        gsap.to("body", { opacity: 1, duration: 1, ease: "power2.inOut" });
       },
     }
   );
@@ -26,8 +30,9 @@ document.addEventListener("DOMContentLoaded", function () {
     {
       y: 0,
       opacity: 1,
-      duration: 3, 
+      duration: 1,
       delay: 0.5,
+      ease: "power2.inOut",
     }
   );
 });
