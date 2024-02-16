@@ -4,9 +4,9 @@
   <br />
   <br />
 
-  <h2 align="center">Wildvine - Charity website</h2>
+  <h2 align="center"> FOWYD - Forum For Women & Youth Development </h2>
 
-  Wildvine is a fully responsive charity website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+  FOWYD - Forum For Women & Youth Development is a fully responsive organisation website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
 </div>
 
@@ -25,12 +25,14 @@ To run **Wildvine** locally, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/wildvine.git
+sudo git clone https://github.com/usmantheguy/fowyd.git
+
+
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/codewithsadee/wildvine.git
+git clone https://github.com/usmantheguy/fowyd.git
 ```
 
