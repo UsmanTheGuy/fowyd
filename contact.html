@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact - Forum For Women & Youth Development</title>
+    <title> Contact | FOWYD - Forum For Women & Youth Development</title>
 
     <!-- 
     - favicon
@@ -192,19 +192,20 @@
           </ul>
         </nav>
 
-        <div class="header-action">
+        <!-- <div class="header-action">
           <button class="btn btn-primary">
             <span>Donation</span>
 
             <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
           </button>
-        </div>
+        </div> -->
+
       </div>
     </header>
 
     <main>
       <article>
-        <section class="team">
+        <section class="team" style=" margin-top: 150px;">
           <div class="center">
             <h1 style="color: black">Our Team</h1>
           </div>
@@ -302,7 +303,7 @@
           </div>
         </section>
 
-        <br /><br /><br /><br />
+        <br/><br/>
 
         <section>
           <div class="contact_container">
@@ -314,19 +315,18 @@
                   <div class="text-one">
                     Lorem ipsum dolor sit amet consectetur adipisicing.
                   </div>
-                  <div class="text-two">Lorem, ipsum dolor.</div>
+                  <!-- <div class="text-two">Lorem, ipsum dolor.</div> -->
                 </div>
                 <div class="phone details">
                   <i class="fas fa-phone-alt"></i>
                   <div class="topic">Phone</div>
-                  <div class="text-one">+23240=23432=2342</div>
-                  <div class="text-two">+2601234-345435</div>
+                  <div class="text-one"> +260 97 4097156 </div>
+                  <!-- <div class="text-two">+2601234-345435</div> -->
                 </div>
                 <div class="email details">
                   <i class="fas fa-envelope"></i>
                   <div class="topic">Email</div>
                   <div class="text-one">fowyd.org@gmail.com</div>
-                  <div class="text-two">fowyd.org@gmail.com</div>
                 </div>
               </div>
               <div class="right-side">
@@ -336,18 +336,20 @@
                   sapiente sit, quaerat omnis quos obcaecati consectetur vero
                   qui commodi assumenda!
                 </p>
-                <form action="#">
+                <form action="https://formsubmit.co/fowyd.org@gmail.com" method="POST">
+                  <input type="hidden" name="_subject" value="New submission!">
                   <div class="input-box">
-                    <input type="text" placeholder="Enter your name" />
+                    <input type="text" name="Names" placeholder="Enter Your Names Here" />
                   </div>
                   <div class="input-box">
-                    <input type="text" placeholder="Enter your email" />
+                    <input type="text" name="Email" placeholder="Enter your Email Here" />
                   </div>
                   <div class="input-box message-box">
-                    <textarea placeholder="Enter your message"></textarea>
+                    <textarea name="Message" placeholder="Enter Your Message Here"></textarea>
                   </div>
+                  <input type="hidden" name="_captcha" value="true">
                   <div class="button">
-                    <input type="button" value="Send Now" />
+                    <input type="submit" value="Send" />
                   </div>
                 </form>
               </div>
