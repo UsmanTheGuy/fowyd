@@ -57,7 +57,7 @@
 
       .form-group input[type="checkbox"] {
         margin-right: 5px; /* Adjust the margin as needed */
-    }
+      }
     </style>
   </head>
 
@@ -233,20 +233,32 @@
 
     <main>
       <article>
-        <section class="hero" id="home">
+        <section
+          class="hero"
+          id="home"
+          style="
+            background: linear-gradient(
+                to bottom,
+                rgba(110, 45, 25, 0.7),
+                rgba(0, 0, 0, 0.7)
+              ),
+              url('/assets/images/volunteer-hero.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+          "
+        >
           <div class="container">
             <h2 class="h1 hero-title">Volunteers</h2>
 
             <p class="hero-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-              laudantium ad id odio veritatis eveniet consequuntur ea a deserunt
-              blanditiis?
+              Empower Change, Inspire Growth: Explore Volunteer Opportunities
+              with FOWYD
             </p>
 
-            <a href="#volunteer_section" class="btn btn-primary header-button">
+            <!-- <a href="#volunteer_section" class="btn btn-primary header-button">
               <span> Volunteer Now </span>
               <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
-            </a>
+            </a> -->
           </div>
         </section>
         <section class="volunteer_section" id="volunteer_section">
@@ -1035,20 +1047,26 @@
 
             <div class="form-group">
               <label for="termsAndPrivacy">
+                <span style="margin-right: 5px">I agree to the</span>
+                <a
+                  href="./terms-and-conditions.html"
+                  style="color: blue"
+                  target="_blank"
+                  >membership terms and conditions</a
+                >
+                <span style="margin: 0 5px">and</span>
+                <a
+                  href="./privacy-policy.html"
+                  style="color: blue"
+                  target="_blank"
+                  >privacy policy</a
+                >
                 <input
                   type="checkbox"
                   id="termsAndPrivacy"
                   name="termsAndPrivacy"
                   required
                 />
-                I agree to the
-                <a href="your_terms_and_conditions_link" target="_blank"
-                  >membership terms and conditions</a
-                >
-                and
-                <a href="your_privacy_policy_link" target="_blank"
-                  >privacy policy</a
-                >
               </label>
             </div>
 
