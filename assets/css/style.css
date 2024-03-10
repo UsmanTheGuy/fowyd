@@ -1550,7 +1550,7 @@ form .password i {
    */
 
    .hero {
-    background: linear-gradient(to bottom, rgba(110, 45, 25, 0.7), rgba(0, 0, 0, 0.7)), url("../images/hero.jpg");
+    background: linear-gradient(to bottom, rgba(44, 44, 44, 0.7), rgba(66, 65, 65, 0.7)), url("../images/hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
