@@ -1070,7 +1070,7 @@ body.loading
   position: absolute;
   width: 26px;
   height: 26px;
-  background-color: #1abc9c;
+  background-color: #a75f0d;
   transform: rotate(45deg);
   top: 50px;
   left: -13px;
@@ -1084,7 +1084,7 @@ form {
 }
 
 .title {
-  color: #fff;
+  color: #000000;
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 1;
@@ -1099,10 +1099,10 @@ form {
 .input {
   width: 100%;
   outline: none;
-  border: 2px solid #fafafa;
+  border: 2px solid #000000;
   background: none;
   padding: 0.6rem 1.2rem;
-  color: #fff;
+  color: #000000;
   font-weight: 500;
   font-size: 0.95rem;
   letter-spacing: 0.5px;
@@ -1124,7 +1124,7 @@ textarea.input {
   left: 15px;
   transform: translateY(-50%);
   padding: 0 0.4rem;
-  color: #fafafa;
+  color: #000000;
   font-size: 0.9rem;
   font-weight: 400;
   pointer-events: none;
@@ -1139,10 +1139,10 @@ textarea.input {
 
 .btn {
   padding: 0.6rem 1.3rem;
-  background-color: #fff;
+  background-color: #5e3d00;
   border: 2px solid #fafafa;
   font-size: 0.95rem;
-  color: #1abc9c;
+  color: #ffffff;
   line-height: 1;
   border-radius: 25px;
   outline: none;
@@ -1153,7 +1153,7 @@ textarea.input {
 
 .btn:hover {
   background-color: transparent;
-  color: #fff;
+  color: #eef10c;
 }
 
 .input-container span {
