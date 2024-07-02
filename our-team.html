@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOWYD - Forum for Women and Youth for Development</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.jpg" type="image/jpg" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="" />
+  </head>
+
+  <body>
+    <!-- PRELOADER -->
+    <div class="preloader" data-preload>
+      <svg
+        id="preloader-svg"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 576 512"
+      >
+        <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+        <path
+          d="M163.9 136.9c-29.4-29.8-29.4-78.2 0-108s77-29.8 106.4 0l17.7 18 17.7-18c29.4-29.8 77-29.8 106.4 0s29.4 78.2 0 108L310.5 240.1c-6.2 6.3-14.3 9.4-22.5 9.4s-16.3-3.1-22.5-9.4L163.9 136.9zM568.2 336.3c13.1 17.8 9.3 42.8-8.5 55.9L433.1 485.5c-23.4 17.2-51.6 26.5-80.7 26.5H192 32c-17.7 0-32-14.3-32-32V416c0-17.7 14.3-32 32-32H68.8l44.9-36c22.7-18.2 50.9-28 80-28H272h16 64c17.7 0 32 14.3 32 32s-14.3 32-32 32H288 272c-8.8 0-16 7.2-16 16s7.2 16 16 16H392.6l119.7-88.2c17.8-13.1 42.8-9.3 55.9 8.5zM193.6 384l0 0-.9 0c.3 0 .6 0 .9 0z"
+        />
+      </svg>
+
+      <div class="preloader-name-container">
+        <div class="preloader-logo-name">FOWYD</div>
+      </div>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <h1>
+          <a href="./index.html" class="logo">
+            <img
+              src="./assets/images/fowyd_logo.png"
+              alt="FOWYD Logo"
+              width="150"
+              height="100"
+            />
+          </a>
+        </h1>
+
+        <!-- <select name="language" class="lang-switch">
+          <option value="english">English</option>
+          <option value="french">French</option>
+          <option value="spanish">Spanish</option>
+        </select> -->
+
+        <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+
+        <nav class="navbar" data-navbar>
+          <button
+            class="nav-close-btn"
+            aria-label="Close Menu"
+            data-nav-close-btn
+          >
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <a href="./index.html" class="logo">
+            <img
+              src="./assets/images/fowyd_logo.png"
+              alt="FOWYD Logo"
+              width="150"
+              height="100"
+            />
+          </a>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>
+                <span>Home</span>
+
+                <ion-icon
+                  name="chevron-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link>
+                <span>About</span>
+
+                <ion-icon
+                  name="chevron-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#service" class="navbar-link" data-nav-link>
+                <span>Service</span>
+
+                <ion-icon
+                  name="chevron-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </li>
+
+            <!-- <li>
+              <a href="./events.html" class="navbar-link" data-nav-link>
+                <span>Events</span>
+
+                <ion-icon
+                  name="chevron-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="./blog.html" class="navbar-link" data-nav-link>
+                <span>Blog</span>
+
+                <ion-icon
+                  name="chevron-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </li> -->
+
+            <!-- <li>
+              <a href="./applications.html" class="navbar-link" data-nav-link>
+                <span> Membership </span>
+
+                <ion-icon
+                  name="chevron-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </li> -->
+
+            <li>
+              <a href="./volunteers.html" class="navbar-link" data-nav-link>
+                <span> Volunteer </span>
+
+                <ion-icon
+                  name="chevron-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </li>
+
+            <!-- <li>
+              <a href="https://donate.stripe.com/test_7sIdUX26G6IccAE001" class="navbar-link" data-nav-link>
+                <span>Donate</span>
+
+                <ion-icon
+                  name="chevron-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </li> -->
+
+            <li>
+              <a href="./contact.html" class="navbar-link" data-nav-link>
+                <span>Contact</span>
+
+                <ion-icon
+                  name="chevron-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="./our-team.html" class="navbar-link" data-nav-link>
+                <span>Our Team</span>
+
+                <ion-icon
+                  name="chevron-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.paypal.me/ngofowyd"
+                class="navbar-link"
+                data-nav-link
+                target="_blank"
+              >
+                <span>Donate</span>
+
+                <ion-icon
+                  name="chevron-forward-outline"
+                  aria-hidden="true"
+                ></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <section
+          class="hero"
+          id="home"
+          style="
+            background: linear-gradient(
+                to bottom,
+                rgba(110, 45, 25, 0.7),
+                rgba(0, 0, 0, 0.7)
+              ),
+              url('/assets/images/contact-us-page.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+          "
+        >
+
+        <div class="our-team-wrapper">
+            <div class="title_our_team">
+              <h4>Our Team</h4>
+            </div>
+
+            <div class="our_team_card_Container">
+              <div class="card">
+                <div class="imbBx">
+                  <img src="./assets/images/president-img.jpg" alt="" />
+                </div>
+
+                <div class="content">
+                  <div class="contentBx">
+                    <h3>
+                      Mr. Blaise Abang <br /><span>President</span
+                      ><span>USA</span>
+                    </h3>
+                  </div>
+                  <ul class="sci">
+                    <li style="--i: 1">
+                      <a href="mailto:fowyd.usa@gmail.com"
+                        ><i class="fa-solid fa-envelope"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="imbBx">
+                  <img src="./assets/images/our-team-2.jpg" alt="" />
+                </div>
+
+                <div class="content">
+                  <div class="contentBx">
+                    <h3>
+                      Mrs. Ayong Dora<br /><span>Vice President</span>
+                      <span>Cameroon</span>
+                    </h3>
+                  </div>
+                  <ul class="sci">
+                    <li style="--i: 1">
+                      <a href="mailto:fowyd.usa@gmail.com"
+                        ><i class="fa-solid fa-envelope"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="imbBx">
+                  <img src="./assets/images/fowyd-sg-profile.jpg" alt="" />
+                </div>
+
+                <div class="content">
+                  <div class="contentBx">
+                    <h3>
+                      Mr. Njuh L. Ndang<br /><span
+                        >Secretary General/Human Resource</span
+                      >
+                      <span>Cameroon</span>
+                    </h3>
+                  </div>
+                  <ul class="sci">
+                    <li style="--i: 1">
+                      <a href="mailto:fowyd.sg@gmail.com"
+                        ><i class="fa-solid fa-envelope"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="imbBx">
+                  <img src="./assets/images/Felicitus-Treasurer.jpg" alt="" />
+                </div>
+
+                <div class="content">
+                  <div class="contentBx">
+                    <h3>
+                      Miss Felicitas Ngah<br /><span
+                        >Treasurer and Head of the Finance Department</span
+                      >
+                      <span>USA</span>
+                    </h3>
+                  </div>
+                  <ul class="sci">
+                    <li style="--i: 1">
+                      <a href="mailto:fowyd.sg@gmail.com"
+                        ><i class="fa-solid fa-envelope"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="imbBx">
+                  <img src="./assets/images/our-team-10.jpg" alt="" />
+                </div>
+
+                <div class="content">
+                  <div class="contentBx">
+                    <h3>
+                      Mr Boniface Njogho<br /><span
+                        >Turkey Representative and Head of International
+                        Cooperation</span
+                      >
+                      <span>Turkey</span>
+                    </h3>
+                  </div>
+                  <ul class="sci">
+                    <li style="--i: 1">
+                      <a href="mailto:fowyd.tk@gmail.com"
+                        ><i class="fa-solid fa-envelope"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="imbBx">
+                  <img src="./assets/images/fowyd-zambia-director.jpg" alt="" />
+                </div>
+
+                <div class="content">
+                  <div class="contentBx">
+                    <h3>
+                      Mr. Usana A. Zulu <br /><span>Zambia Representative</span>
+                      <span>Zambia</span>
+                    </h3>
+                  </div>
+                  <ul class="sci">
+                    <li style="--i: 1">
+                      <a href="mailto:fowyd.zambia@gmail.com"
+                        ><i class="fa-solid fa-envelope"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="imbBx">
+                  <img src="./assets/images/cameroon-rev-terrance.jpg" alt="" />
+                </div>
+
+                <div class="content">
+                  <div class="contentBx">
+                    <h3>
+                      Pastor Terrence <br /><span>Cameroon Representative</span>
+                      <span>Cameroon</span>
+                    </h3>
+                  </div>
+                  <ul class="sci">
+                    <li style="--i: 1">
+                      <a href="mailto:fowyd.cm@gmail.com"
+                        ><i class="fa-solid fa-envelope"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="imbBx">
+                  <img src="./assets/images/our_team_italiy.jpg" alt="" />
+                </div>
+
+                <div class="content">
+                  <div class="contentBx">
+                    <h3>
+                      Mr. Tibab Claude Ngoh <br /><span
+                        >Italy Representative</span
+                      >
+                      <span>Italy</span>
+                    </h3>
+                  </div>
+                  <ul class="sci">
+                    <li style="--i: 1">
+                      <a href="mailto:fowyd.it@gmail.com"
+                        ><i class="fa-solid fa-envelope"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="imbBx">
+                  <img
+                    src="./assets/images/Lance Gavin Juntill_Profile.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <div class="contentBx">
+                    <h3>
+                      Lance Gavin Juntilla <br /><span
+                        >Philippines Representative</span
+                      >
+                      <span>The Philippines</span>
+                    </h3>
+                  </div>
+                  <ul class="sci">
+                    <li style="--i: 1">
+                      <a href="mailto:#"
+                        ><i class="fa-solid fa-envelope"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="imbBx">
+                  <img
+                    src="./assets/images/Nonthando-Magagula-South-Africa-Representative.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <div class="contentBx">
+                    <h3>
+                      Nonthando Magagula <br /><span
+                        >South Africa Representative</span
+                      >
+                      <span>South Africa</span>
+                    </h3>
+                  </div>
+                  <ul class="sci">
+                    <li style="--i: 1">
+                      <a href="mailto:#"
+                        ><i class="fa-solid fa-envelope"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="imbBx">
+                  <img src="./assets/images/Zeinabou-Amamdou.jpg" alt="" />
+                </div>
+
+                <div class="content">
+                  <div class="contentBx">
+                    <h3>
+                      Miss Zeinabou Amadou Hamadou Elhadji <br /><span
+                        >Financial Secretary</span
+                      >
+                      <span>Turkey</span>
+                    </h3>
+                  </div>
+                  <ul class="sci">
+                    <li style="--i: 1">
+                      <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="imbBx">
+                  <img src="./assets/images/Safiatou-Amamdou.jpg" alt="" />
+                </div>
+
+                <div class="content">
+                  <div class="contentBx">
+                    <h3>
+                      Miss Safiatou Amadou Elhadji <br /><span
+                        >Deputy Secretary General</span
+                      >
+                      <span>Turkey</span>
+                    </h3>
+                  </div>
+                  <ul class="sci">
+                    <li style="--i: 1">
+                      <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="imbBx">
+                  <img
+                    src="./assets/images/Angeck_Stessy_Enni_Profile.png"
+                    alt=""
+                  />
+                </div>
+
+                <div class="content">
+                  <div class="contentBx">
+                    <h3>
+                      Miss Angeck Stessy Enni <br /><span
+                        >Head of the Technical Department</span
+                      >
+                      <span>Cameroon</span>
+                    </h3>
+                  </div>
+                  <ul class="sci">
+                    <li style="--i: 1">
+                      <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer-list">
+          <li>
+            <a href="./terms-and-conditions.html" class="footer-link">
+              Terms of Use
+            </a>
+          </li>
+
+          <li>
+            <a href="./privacy-policy.html" class="footer-link">
+              Privacy & Policy
+            </a>
+          </li>
+        </ul>
+
+        <p class="copyright">
+          Copyright 2024
+          <a href="https://www.fowyd.org/" class="copyright-link">FOWYD</a>. All
+          Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- GSAP Libarary -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
