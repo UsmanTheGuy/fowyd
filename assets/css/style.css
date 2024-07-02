@@ -940,7 +940,7 @@ body.loading
 .title_our_team h4{
   display: inline-block;
   padding: 20px;
-  color: #585757;
+  color: #ffffff;
   font-size: 50px;
   font-weight: 500;
   letter-spacing: 1.2px;
@@ -1394,18 +1394,62 @@ textarea.input {
   opacity: 0.3;
 }
 
-.big-circle {
+.big-circle-usa {
   position: absolute;
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  background: linear-gradient(to bottom, #1cd4af, #159b80);
+  background: linear-gradient(to bottom, #0A3161, #B31942, #FFFFFF);
   bottom: 50%;
   right: 50%;
   transform: translate(-40%, 38%);
 }
 
-.big-circle:after {
+.big-circle-usa:after {
+  content: "";
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  background-color: #fafafa;
+  border-radius: 50%;
+  top: calc(50% - 180px);
+  left: calc(50% - 180px);
+}
+
+.big-circle-cm {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #007A5E, #CE1126, #FCD116);
+  bottom: 50%;
+  right: 50%;
+  transform: translate(-40%, 38%);
+}
+
+.big-circle-cm:after {
+  content: "";
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  background-color: #fafafa;
+  border-radius: 50%;
+  top: calc(50% - 180px);
+  left: calc(50% - 180px);
+}
+
+.big-circle-zm {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #198A00, #DE2010, #000000, #EF7D00 );
+  bottom: 50%;
+  right: 50%;
+  transform: translate(-40%, 38%);
+}
+
+.big-circle-zm:after {
   content: "";
   position: absolute;
   width: 360px;
